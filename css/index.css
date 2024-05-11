@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+/* xoas di cac thuoc tinh phis tren de ko anh huowg toiw cac thuowcj thinh phis duoiw */
+.clear{
+     clear: both;/*xoa hieu ung cua float */
+}
+.header img{
+    width: 20%;
+    height:50px;
+    display: inline-block;
+}
+.header .menu{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+.header .menu div{
+    padding-left: 30px;
+}
+.section-one{
+    padding-left: 5px;
+}
+.section-one img{
+    width: 100%;
+    height: auto;
+}
+
+ /* Intro */
+.intro__text{
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+.intro__left,.intro__right{
+    float:left;
+    width: 50%;   
+}
+.intro__smallitem{
+    float: left;
+    width: 50%;
+}
+.intro__item {
+    padding: 0 15px 25px;
+}
+.intro__item img{
+   width: 100%;
+   display: block;
+}
+/* Products */
+.products{
+    margin-bottom:70px ;
+}
+.products__item{
+    float:left;
+    width: 25%;
+    padding :0 10px;
+}
+.products__item img{
+    width: 100%;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+}
+.products__item h3{
+    font-size: 25px;
+}
+.products__item p{
+    font-size: 17px;
+}
+.products__item button{
+    background-color: red;
+    border:1px solid red ;
+    color: white;
+    padding:8px 12px;
+    border-radius:3px;
+    margin-top: 15px;
+}
+ /* Banner */
+ .banner{
+    background-image: url("../img/nature.jpg");
+    height: 400px;
+    /* background-repeat: no-repeat;  */
+    /* Khong lap lai hinh anh */
+    background-size: cover;
+    /* thang cha khai bao relative */
+    position: relative;
+ }
+ .banner__circle{
+    width: 300px;
+    height: 300px;
+    /* rgba */
+    background-color: rgba(131, 41, 39, 0.804) ;
+    color: white ;
+    border-radius: 50%;
+    text-align: center;
+    /* khai bao cho thang con */
+    position: absolute;
+    /* phai khai bao position ms khai bao left right */
+    left: 340px;
+    top: 15px;
+ }
+ .banner__circle p{
+    font-size: 20px;
+    margin: 0 0 20px;
+ }
+ .banner__circle p:first-child{
+    font-size: 30px;
+    margin: 50px 0 0;
+ }
+ .banner__circle p:nth-child(2){
+    font-size: 80px;
+    margin: 0;
+ }
+ /* services */
+ .services{
+    margin: 30px 0 10px;
+ }
+ .services__content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+ }
+ .service__item{
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px;
+ }
+ .service__item i{
+    font-size: 40px;
+    color: black;
+ }
+ .service__item h2{
+     margin: 10px 0;
+ }
+ .service__item p{
+    margin: 0;
+ }
+ .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+ }
+ .footer h2, .footer p{
+    margin: 0;
+ }
